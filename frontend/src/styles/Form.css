@@ -1,0 +1,106 @@
+/* Form Container */
+.form-container {
+  max-width: 500px;
+  margin: 50px auto; /* center vertically and horizontally */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', 'Inter' ,Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form Heading */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Card */
+.form-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Inputs and Selects */
+.form-card input,
+.form-card select {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+
+.form-card input:focus,
+.form-card select:focus {
+   border-color: #007bff; 
+  outline: none;
+}
+
+/* Buttons */
+.form-card button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; 
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Cancel Button */
+.form-card button[type="button"] {
+  background-color: #6c757d;
+}
+
+.form-card button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+/* Paragraph Links (Login/Register link) */
+.form-container p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.form-container p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-container p a:hover {
+  text-decoration: underline;
+}
+
+/* List Styling (Categories & Transactions) */
+.form-container ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.form-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.form-container li button {
+  margin-left: 5px;
+  font-size: 12px;
+}
